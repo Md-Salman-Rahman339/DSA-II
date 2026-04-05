@@ -1,0 +1,9 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.executorMap": {
+    "cpp": "g++ \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\""
+  }
+}
