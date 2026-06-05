@@ -4,6 +4,9 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.fileDirectoryAsCwd": true,
   "code-runner.executorMap": {
-    "cpp": "g++ \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\""
+    "cpp": "C:\\msys64\\mingw64\\bin\\g++.exe \"$fileName\" -o \"$fileNameWithoutExt.exe\" && .\\\"$fileNameWithoutExt.exe\""
+  },
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
   }
 }
